@@ -6,6 +6,16 @@ gradio
 mdtex2html
 sentencepiece
 accelerate
+
+# int8
+bitsandbytes==0.37.1
+accelerate==0.17.1
+
+# chatglm
+icetk
+cpm_kernels==1.0.11
+tensorboard
+
 # for LoRA
 peft
 datasets==2.10.1
