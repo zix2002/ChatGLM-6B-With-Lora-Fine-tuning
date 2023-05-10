@@ -17,8 +17,8 @@ model = AutoModel.from_pretrained(
     "models/chatglm-6b", trust_remote_code=True).half().to('mps')
 
 # 加载 lora
-# loras = ["lora/cat-lora", "lora/chatglm-6b-belle-zh-lora"]
-loras = ["lora/chatglm-6b-belle-zh-lora"]
+loras = ["lora/cat-lora", "lora/chatglm-6b-belle-zh-lora"]
+# loras = ["lora/chatglm-6b-belle-zh-lora"]
 print("Loading ", len(loras), "lora: ", loras)
 for lora in loras:
     print(f"Loading {lora}...")
