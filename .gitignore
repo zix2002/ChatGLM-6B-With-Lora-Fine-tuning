@@ -130,5 +130,7 @@ dmypy.json
 .pyre/
 
 # Mac system file
-models/
-lora
+models/*
+!models/.gitkeep
+lora/*
+!lora/.gitkeep
